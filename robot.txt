@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bluemoonai.github.io/sitemap.xml
