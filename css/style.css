@@ -137,13 +137,14 @@ body {
 #hero {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh; /* Set hero section to full viewport height */
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
 }
-
 .profile-image {
-  width: 150px;
+  width: 350px;
   border-radius: 50%;
-  animation: bounce 1s infinite alternate;
+  animation: bounce 1s infinite alternate ease-in-out;
 }
 
 @keyframes bounce {
@@ -384,8 +385,8 @@ body {
   }
 
   .about-us-text {
+    margin-left: 2rem;
     max-width: 600px;
-    margin: 0; /* Removed margin for better alignment */
     text-align: left;
   }
 }
@@ -395,10 +396,13 @@ body {
     flex-direction: column;
   }
 }
+
 /* Q & A section styling */
 #qna .qa-item {
   margin-bottom: 2rem;
   cursor: pointer;
+  border-bottom: 1px solid var(--card-background); /* Add this line for a visible border */
+  padding-bottom: 1.5rem; /* Add padding for better spacing */
 }
 
 #qna .question {
@@ -416,6 +420,10 @@ body {
 
 /* Responsive styling */
 @media (max-width: 768px) {
+  #qna .qa-item {
+    margin-bottom: 1rem; /* Adjust the margin as needed */
+  }
+
   #qna .question {
     font-size: 1.1rem;
   }
@@ -424,4 +432,61 @@ body {
     font-size: 0.9rem;
   }
 }
+
+/* Features Section Styles */
+#features {
+  padding: 80px 0;
+}
+
+.features-container {
+  text-align: center;
+}
+
+.division {
+  height: 2px;
+  width: 60px;
+  background-color: #fff;
+  margin: 0 auto 20px; /* Adjust margin as needed */
+}
+
+.content-text {
+  margin-bottom: 40px; /* Adjust margin as needed */
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-item {
+  width: 220px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.feature-item:hover {
+  transform: scale(1.05);
+}
+
+.feature-item i {
+  font-size: 48px;
+  color: #000000; /* Set your desired color for the icon */
+}
+
+.feature-item h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.feature-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
 
