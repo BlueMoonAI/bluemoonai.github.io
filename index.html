@@ -1,39 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlueMoon AI</title>
-    <link rel="icon" href="assets/img/favicon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="styles/css/index.css">
-<meta name="google-site-verification" content="gfQw39sodO6UVOpEijcrvk-DcIhvDllkx5gWF0pbeL0" />   
-    <meta name="description" content="BlueMoon AI - Generative AI for Professional Creatives.">
-    <meta property="og:title" content="BlueMoon AI">
-    <meta property="og:description" content="BlueMoon AI - Generative AI for Professional Creatives.">
-    <meta property="og:image" content="assets/img/favicon.jpg">
-    <meta property="og:url" content="https://bluemoonai.github.io">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <title>BlueMoonAI - AI Image Generator</title>
+  <meta name="title" content="BlueMoonAI - AI Image Generator" />
+  <meta name="description" content="Unleash your creative potential with BlueMoonAI - an AI-powered image generator. Create photorealistic images from textual inputs effortlessly." />
 
-    <!-- Canonical Link -->
-    <link rel="canonical" href="https://bluemoonai.github.io">
-
-    <!-- Additional metadata for search engines -->
-    <meta name="keywords" content="BlueMoon AI, Generative AI, Artificial Intelligence, Creativity">
-
-    <!-- Author information -->
-    <meta name="author" content="BlueMoon AI">
-
-    <!-- Twitter Card metadata for better sharing on Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="BlueMoon AI">
-    <meta name="twitter:description" content="BlueMoon AI - Generative AI for Professional Creatives.">
-    <meta name="twitter:image" content="assets/img/favicon.jpg">
-
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/BlueMoonAI/BlueMoonAI" />
+  <meta property="og:title" content="BlueMoonAI - AI Image Generator" />
+  <meta property="og:description" content="Unleash your creative potential with BlueMoonAI - an AI-powered image generator. Create photorealistic images from textual inputs effortlessly." />
+  <meta property="og:image" content="assets/gallery/image (1).png" />
+  <link rel="canonical" href="https://bluemoonai.github.io">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://github.com/BlueMoonAI/BlueMoonAI" />
+  <meta property="twitter:title" content="BlueMoonAI - AI Image Generator" />
+  <meta property="twitter:description" content="Unleash your creative potential with BlueMoonAI - an AI-powered image generator. Create photorealistic images from textual inputs effortlessly." />
+  <meta property="twitter:image" content="assets/gallery/image (1).png" />
+  <meta name="keywords" content="BlueMoon AI, Generative AI, Artificial Intelligence, Creativity,BlueMoon,Moon,Moon AI">
+  <!-- Link -->    <meta name="author" content="BlueMoon AI">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/abea81d4d2940a0d1a7c758a5949a3d1.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/abea81d4d2940a0d1a7c758a5949a3d1.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/abea81d4d2940a0d1a7c758a5949a3d1.ico" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/abea81d4d2940a0d1a7c758a5949a3d1.ico" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/abea81d4d2940a0d1a7c758a5949a3d1.ico" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon/abea81d4d2940a0d1a7c758a5949a3d1.ico" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+</head>
 <body>
-<h1>Welcome to Bluemoon AI</h1>
-<p>Exciting things are happening behind the scenes!</p>
-<p>Stay tuned for the launch of Bluemoon AI.</p>
-<p>Visit <a href="https://github.com/BlueMoonAI" target="_blank">BlueMoonAI</a> for updates.</p>
-<p>In the meantime, you can explore progress at <a href="https://github.com/BlueMoonAI/BlueMoonAI" target="_blank">BlueMoonAI</a>.</p>
-<p>Thank you for your patience!</p>
+<header id="hero">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <!-- Logo -->
+      <h1 id="logo">
+        <a href="https://github.com/BlueMoonAI/BlueMoonAI" class="logo-link">BlueMoon AI</a>
+      </h1>
+
+      <!-- Navbar links -->
+      <ul class="nav-menu">
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#gallerys">Gallery</a></li>
+        <li><a class="nav-link" href="#about-us">About us</a></li>
+        <li><a class="nav-link" href="#qna">Q & A</a></li>
+        <li><a class="nav-link btn btn-primary" href="https://github.com/BlueMoonAI/BlueMoonAI#readme">Get Started <i class="fas fa-arrow-right"></i></a></li>
+        <!-- Toggle switch -->
+        <div class="theme-switch">
+          <input type="checkbox" id="switch" />
+          <label class="toggle-icons" for="switch">
+            <img class="moon" src="assets/moon.svg" alt="Moon" />
+            <img class="sun" src="assets/sun.svg" alt="Sun" />
+          </label>
+        </div>
+        <!-- Hamburger menu -->
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <section class="header-container">
+    <img class="profile-image" src="assets/favicon/abea81d4d2940a0d1a7c758a5949a3d1.ico" alt="BlueMoonAI Profile Image" />
+    <h1>Welcome to BlueMoon AI</h1>
+
+    <div class="content-text">
+      <h2>Unleashing Creative AI for Stunning Images.</h2>
+      <p>Explore the power of AI with BlueMoon AI your gateway to creating captivating and realistic images using advanced artificial intelligence algorithms.</p>
+    </div>
+    <a href="https://github.com/BlueMoonAI/BlueMoonAI" class="btn btn-secondary" target="_blank">Getting Started</a>
+  </section>
+
+</header>
+
+<!-- Gallery -->
+<section id="gallerys" class="gallery-container container">
+  <div class="division"></div>
+  <div class="content-text">
+    <h2>AI Art Gallery</h2>
+    <p>Explore stunning AI-generated artworks from BlueMoon AI</p>
+  </div>
+
+  <article class="gallery" id="galleryContainer">
+    <!-- Gallery cards will be dynamically added here -->
+  </article>
+
+
+
+  <a href="https://github.com/orgs/BlueMoonAI/discussions" class="btn btn-secondary" target="_blank">See More <i class="fas fa-arrow-right"></i></a>
+</section>
+
+<!-- About Us -->
+<section id="about-us" class="about-us-container container">
+  <div class="division"></div>
+  <div class="content-text">
+    <h2>About Us</h2>
+    <p>Discover the story behind BlueMoon AI - your partner in unleashing creative potential through cutting-edge artificial intelligence.</p>
+  </div>
+
+  <div class="about-us-content">
+    <div class="about-us-image">
+      <img src="assets/favicon/abea81d4d2940a0d1a7c758a5949a3d1.ico" alt="About Us Image" />
+    </div>
+    <div class="about-us-text">
+      <p>Welcome to BlueMoon AI, where innovation meets imagination. We are a team of passionate individuals dedicated to pushing the boundaries of artificial intelligence to empower creativity.</p>
+      <p>Our mission is to provide you with a seamless and inspiring experience in generating realistic images using the latest AI technologies. With BlueMoon AI, you can transform your ideas into captivating visuals effortlessly.</p>
+      <p>Join us on this exciting journey and explore the endless possibilities that AI brings to the world of digital art. Whether you are a seasoned artist or just getting started, BlueMoon AI is here to elevate your creative journey.</p>
+    </div>
+  </div>
+</section>
+<!-- Q & A section -->
+<section id="qna" class="qa-container container">
+  <div class="division"></div>
+  <div class="content-text">
+    <h2>Q & A</h2>
+    <p>Frequently Asked Questions about BlueMoon AI</p>
+  </div>
+
+  <div class="qa-list">
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer1')">Q: What is BlueMoon AI?</div>
+      <div class="answer" id="answer1">A: BlueMoon AI is an open-source and free image AI that leverages advanced artificial intelligence algorithms to generate realistic images from textual inputs. It is licensed under Apache License 2.0 and OpenRail-M.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer2')">Q: How can I get started with BlueMoon AI?</div>
+      <div class="answer" id="answer2">A: To get started with BlueMoon AI, visit our GitHub repository at <a href="https://github.com/BlueMoonAI/BlueMoonAI" target="_blank">https://github.com/BlueMoonAI/BlueMoonAI</a>. Follow the instructions in the README to explore and use the AI image generator.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer3')">Q: Is BlueMoon AI suitable for beginners?</div>
+      <div class="answer" id="answer3">A: Absolutely! BlueMoon AI is designed to be user-friendly, making it suitable for both beginners and experienced users. The documentation provides step-by-step guidance.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer4')">Q: Can I contribute to BlueMoon AI?</div>
+      <div class="answer" id="answer4">A: Yes, contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request. Check the contribution guidelines in the repository for more details.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer5')">Q: What license is BlueMoon AI released under?</div>
+      <div class="answer" id="answer5">A: BlueMoon AI is released under the Apache License 2.0. You can find the full text of the license in the repository.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer6')">Q: Can I use BlueMoon AI for commercial projects?</div>
+      <div class="answer" id="answer6">A: Yes, you can use BlueMoon AI for commercial projects under the terms of the Apache License 2.0. Be sure to comply with the license requirements and include the appropriate notices.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer7')">Q: How often is BlueMoon AI updated?</div>
+      <div class="answer" id="answer7">A: BlueMoon AI is actively maintained, and updates are regularly pushed to the GitHub repository. You can check the commit history for details on the latest changes.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer8')">Q: Are there any prerequisites for using BlueMoon AI?</div>
+      <div class="answer" id="answer8">A: BlueMoon AI may have certain dependencies. Check the documentation in the repository for a list of prerequisites and installation instructions.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer9')">Q: Is BlueMoon AI compatible with different operating systems?</div>
+      <div class="answer" id="answer9">A: Yes, BlueMoon AI is designed to be cross-platform and should be compatible with various operating systems. Refer to the documentation for specific system requirements.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer10')">Q: How can I report bugs or issues?</div>
+      <div class="answer" id="answer10">A: If you encounter any bugs or issues, please open a new issue on the GitHub repository, providing detailed information about the problem. This helps the development team address and resolve the issues more effectively.</div>
+    </div>
+
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer('answer11')">Q: Can I customize and extend the functionality of BlueMoon AI?</div>
+      <div class="answer" id="answer11">A: Yes, BlueMoon AI is designed to be extensible. You can explore the codebase, add your own features, and customize the functionality based on your needs. Be sure to follow best practices and contribute your improvements back to the community.</div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<footer id="footer">
+  <div class="container">
+    <!-- Social links -->
+    <div class="social">
+      <a href="http://github.com/BlueMoonAI" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub" /></a>
+      <a href="https://huggingface.co/bluemoonai" target="_blank"><img src="./assets/huggingface.png" alt="GitHub" /></a>
+
+    </div>
+
+    <p>Copyright &copy; BlueMoon AI <span id="datee"></span>, All rights reserved</p>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/qna.js"></script>
 </body>
 </html>
